@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* nav-styling */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(237, 241, 232);
+    height: 14vh;
+    font-family: "Montserrat",sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-elements{
+   padding: 15px;
+   
+
+}
+
+.nav-elements a{
+    text-decoration: none;
+    color: rgb(91, 80, 80);
+    font-size: larger;
+}
+
+.nav-elements a:hover{
+  color: #99CC99;
+}
+
+#hero{
+    height: 110vh;
+    
+    background-image: url("./images/brooke-lark-W9OKrxBqiZA-unsplash\ \(1\).jpg");
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    opacity: 1;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair',serif;
+    color: rgb(19, 23, 20);
+    padding: 20px;
+
+    
+}
+
+
+
+.hero-title{
+    /* display: flex; */
+    
+    
+    text-align: center;
+    
+    
+
+}
+
+.hero-img{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(60, 238, 47);
+    
+}
+
+.hero_{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-title h1{
+    font-size: 60px;
+    font-weight: bold;
+    opacity: 2;
+}
+
+.hero-title p{
+    font-family: 'Open Sans',sans-serif;
+    padding: 15px;
+    color: #495356;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+/* .cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+} */
+
+#explore-recipes{
+
+    width: 100%;
+    
+    
+    
+  
+    padding: 15px;
+    background-color:rgb(65, 237, 56);
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size:large;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+
+
+
+#explore-recipes a:hover{
+  background-color: rgb(65, 237, 56);
+  color: white;
+
+}
+
+
+
+
+
+
+#our-motto{
+    background-color: rgb(255, 255, 255);
+
+    height: 120vh;
+    display: flex;
+   
+    font-family: "Monteserrat",sans-serif;
+
+  
+  
+    padding: 30px;
+}
+
+.first-half{
+  height: 100%;
+  width: 50%;
+  background-image: url("./images/vicky-ng-p_APqCUnZQE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.second-half{
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+
+}
+
+#our-motto h3{
+   font-size: 60px;
+   padding: 20px;
+   font-family: "playfair",serif;
+   margin: 10px;
+   line-height: 1.1;
+   text-align: center;
+   color: rgb(20, 18, 18);
+}
+
+#our-motto p{
+    margin: 10px;
+    padding: 10px 40px;
+    color: rgb(12, 11, 12);
+    font-size: large;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+
+
+#nutrition-imp{
+
+    height: 100vh;
+    background-image: url("./images/brooke-lark-29h2n639YDA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: "Montserrat",sans-serif;
+    /* padding: 10px 25px; */
+    line-height: 1.5;
+
+}
+
+#nutrition-imp h3{
+    font-size: 40px;
+    margin: 7px;
+}
+
+.p-style{
+  color:tomato;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Open Sans",sans-serif;
+}
+
+.macro{
+  color: tomato;
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 7px;
+}
+
+.cta button{
+  margin: 20px;
+  padding: 10px 20px;
+  background-color:#e1cfcf;
+  color: #93f393;
+  font-family: "Montserrat", serif;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  
+
+}
+
+.cta button a{
+  text-decoration: none;
+  color: #faf7f7;
+}
+
+.cta button a:hover{
+  color: #e1cfcf;
+  background-color:  #faf7f7;;
+}
+
+
+#contact-us {
+    height: 70vh;
+    background-color: #f9ebeb;  /* Light grey background */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact-us h2 {
+    margin-bottom: 30px;
+    color: #646262;  /* Dark grey heading */
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;  /* Center the form horizontally */
+    padding: 20px;
+    font-family: "Montserrat", serif;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #EAEAEA;  /* Light grey for the form */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #514a4a;  /* Dark grey for labels */
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;  /* Light grey border */
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #99CC99;  /* Green submit button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #8AB38A;  /* Darken green on hover */
+  }
+
+
+  /* fav-recipe section */
+  /* Favorite Recipe Section */
+#fav-recipe  {
+    height: 100vh;
+    background-color: #FFFAF0;  /* Light peach background */
+    padding: 50px 0;
+    text-align: center;
+    font-family: "Montserrat",serif;
+  }
+  
+  #fav-recipe h2 {
+    margin-bottom: 20px;
+    color: #F57C7C;  /* Hot pink heading */
+    font-size: 24px;
+  }
+  
+  #fav-recipe p {
+    color: #333;  /* Dark grey paragraph text */
+    font-size: 16px;
+    line-height: 1.5;  /* Slightly increased line height for readability */
+  }
+  
+  #fav-recipe .form-group {
+    margin-top: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8b7685;  /* Hot pink for labels */
+    font-weight: bold;
+  }
+  
+  /* Style the file upload button (limited styling possible with CSS) */
+  input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;  /* Light grey border */
+    border-radius: 3px;
+    background-color: #fff;  /* White background for the button */
+  }
+  
+  button[type="submit"] {
+    background-color: #F57C7C;  /* Hot pink submit button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #D75B5B;  /* Darken pink on hover */
+  }
+  
+  /* Add some fun icons (optional) */
+  #fav-recipe p i {
+    color: #F57C7C;  /* Hot pink for icons */
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+
+  /* Footer Styles */
+footer {
+    height: 50vh;
+    background-color: #F2F2F2;  /* Light grey - matches contact section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;  /* Dark grey text */
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 15px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-content li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-content a {
+    color: inherit; /* Inherit footer text color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-content a:hover {
+    color: #99CC99; /* Green color on hover - matches submit button */
+  }
+  
+

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 241, 232);
+    height: 14vh;
+    font-family: "Montserrat",sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-elements{
+   padding: 15px;
+   
+
+}
+
+.nav-elements a{
+    text-decoration: none;
+    color: rgb(91, 80, 80);
+    font-size: larger;
+}
+
+.nav-elements a:hover{
+  color: #99CC99;
+}
+
+
+
+/* Page Styles */
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: "Playfair",serif; /* Adjust if desired */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Footer Styles (replace with your content) */
+  header, footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #F2F2F2; /* Light grey background for header and footer */
+    color: #333; /* Dark grey text */
+  }
+  
+  /* Recipes Section */
+  #recipes {
+    background-image: url("../brooke-lark-lcZ9NxhOSlo-unsplash.jpg");
+    height: 150vh;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+ 
+  
+  
+  /* Recipe Container (Flexbox Layout) */
+  .recipe-container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;  /* Wrap cards to multiple rows if needed */
+    justify-content: space-between; /* Distribute cards evenly */
+    margin: 0 auto; /* Center the container horizontally */
+    width: 100%;  /* Set a maximum width for responsiveness */
+  }
+  
+  /* Recipe Card Styles */
+  .recipe-card {
+    height: 40vh;
+    background-color: #fff; /* White background for cards */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    padding: 30px;
+    width: 33.3%;  /* Set width for 3 cards per row */
+  /* Add some margin for spacing */
+  }
+  
+  .recipe-card img {
+    width: 100%;  /* Full width for responsive layout */
+    height: 150px; /* Adjust image height if needed */
+    object-fit: cover; /* Crop image to fit container */
+  }
+  
+  .recipe-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; /* Dark grey for recipe name */
+    line-height: 1.5; /* Slightly increased line height for readability */
+  }
+
+  .recipe-card a {
+    text-decoration: none;
+    color:  #F57C7C; 
+  }
+
+  .recipe-card h3:hover{
+    color: #99CC99;
+    transition: transform 0.2s ease-in-out;
+  }
+
+ .recipe-card>a>h3{
+   color: #F57C7C;
+  
+ }
+  
+  /* Optional: Add hover effect for cards (example) */
+  .recipe-card:hover {
+    transform: scale(1.03); /* Slightly scale up on hover */
+    transition: transform 0.2s ease-in-out;
+  }
+
+    /* Footer Styles */
+footer {
+    height: 50vh;
+    background-color: #F2F2F2;  /* Light grey - matches contact section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;  /* Dark grey text */
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 15px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-content li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-content a {
+    color: inherit; /* Inherit footer text color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-content a:hover {
+    color: #99CC99; /* Green color on hover - matches submit button */
+  }
+  
+
+
+  
+

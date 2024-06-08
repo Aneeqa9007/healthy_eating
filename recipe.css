@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Initial Styles (Content Hidden) */
+/* body, * {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;  /* Adjust duration and timing as desired */
+  /* } */
+  
+  /* Content Fades in on Page Load */
+  /* body.loaded {
+    opacity: 1;
+  } */ 
+  
+
+/* nav-styling */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(237, 241, 232);
+    height: 14vh;
+    font-family: "Montserrat",sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-elements{
+   padding: 15px;
+   
+
+}
+
+.nav-elements a{
+    text-decoration: none;
+    color: rgb(91, 80, 80);
+    font-size: larger;
+}
+
+.main{
+     background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+     display: flex;
+     flex-direction: column;
+     /* border: 2px solid black; */
+     /* padding: 40px; */
+     margin: 0px 10px;
+     border-radius: 20px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     justify-content: center;
+     /* align-items: center; */
+     font-family: "Open Sans",sans-serif;
+
+}
+
+.recipe-img{
+    height: 50vh;
+    width: 50vw;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.name-description{
+
+    color: rgb(227, 132, 132);
+    font-weight: lighter;
+    margin: 10px 20px;
+}
+
+.ingredient-list{
+
+    margin: 20px;
+    background-color: white;
+    /* /* border: 1px solid black; */
+    padding: 30px 40px;
+    border-radius: 20px;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.procedure-div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* border: 1px solid black; */
+    padding: 30px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 70vw;
+    background-color: white;
+}
+
+.nutrition{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 30px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 70vw;
+    background-color: white;
+}
+
+.ingredient +.Procedure + .nutrition{
+    font-family: "Montserrat",serif;
+}
+
+footer {
+    height: 50vh;
+    background-color: #F2F2F2;  /* Light grey - matches contact section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;  /* Dark grey text */
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 15px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-content li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-content a {
+    color: inherit; /* Inherit footer text color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-content a:hover {
+    color: #99CC99; /* Green color on hover - matches submit button */
+  }
+  
+
